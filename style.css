@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 1.6;
+    font-family: arial;
+}
+
+button {
+    width: 165px;
+}
+
+div {
+    width: 540px;
+}
+
+.title {
+    background: #ffc108;
+    text-align: center;
+    padding: 12px;
+}
+
+.info p {
+    background: #392b6f;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    
+}
+
+table, tr, th{
+    max-width: 200px;
+    width: 200px;
+    border: 1px solid #ffc108;
+    border-collapse: collapse;
+}
+
+p {
+    width: 177px;
+    border-top: 1px solid #ffc108
+}

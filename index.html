@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Append table</h1>
+    <div>
+                <!-- INPUT -->
+        <input id="vardas" type="text"> 
+        <input id="pavardė" type="text"> 
+        <input id="amžius" type="text">
+        
+                <!-- BUTTONS -->
+        <button id="add">Pridėti</button> 
+        <button id="del first">Ištrinti pirmą</button> 
+        <button id="del last">Ištrinti paskutinį</button>
+    </div>
+        <table>
+            <tr class="title">
+                <th>VARDAS</th>
+                <th>PAVARDĖ</th>
+                <th>AMŽIUS</th>
+            </tr>
+            <tr id="row" class="info">
+                <th><div id="names" class="names"></div></th>
+                <th><div id="surnames" class="surnames"></div></th>
+                <th><div id="age" class="age"></div></th>
+            </tr>
+        </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
